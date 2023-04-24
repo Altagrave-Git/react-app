@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.btn {
+  padding: 5px 20px;
+  border-radius: 10px;
+  background-color: #00000000;
+  color: #eeeeee;
+  border: 2px outset #e1e1e1;
+  font-weight: 700;
+  box-shadow: 0 0 5px 1px inset #e1e1e155;
+}
+
+.btn:hover {
+  box-shadow: 0 0 10px 10px inset #e1e1e155;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn:active {
+  border-style: inset;
+}
+
+.character {
+  height: 240px;
+  width: auto;
+}
